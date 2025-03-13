@@ -8,7 +8,7 @@ function App() {
   const [items, setItems] = useState([]);
 
   function handleAddItem(item) {
-    setItems((items => [...items, item]));
+    setItems((items => [...items, item]))
   }
 
   function handleDeleteItem(id) {
